@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/background"
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent"
+    android:padding="30dip"
+    android:orientation="horizontal">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:layout_gravity="center">
+        <TextView
+            android:text="SKYRIM"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="25dip"
+            android:textSize="24.5sp" />
+        <Button
+            android:id="@+id/control_button"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Controller" />
+        <Button
+            android:id="@+id/locate_button"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Location" />
+        <Button
+            android:id="@+id/comm_button"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Communication" />
+        <Button
+            android:id="@+id/exit_button"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Exit" />
+    </LinearLayout>
+</LinearLayout>
